@@ -1,17 +1,12 @@
 *{
-    
-
-    
-  
     font-family: "Inter", serif;
-   
+}
 
-}
 body{
-    background-color: hsl(0, 0%, 8%);
-    
+    background-color: hsl(0, 0%, 8%);  
 }
-.div-central{
+
+.card{
     display: flex;
     left: 40%;
     right: 40%;
@@ -23,8 +18,8 @@ body{
     height: 600px;
     background-color: hsl(0, 0%, 12%) ;
     padding-bottom: 20px;
- 
 }
+
 #avatar{
     width: 100px;
     margin-top: 20px;
@@ -32,7 +27,7 @@ body{
     border-radius: 200px;
 }
 
-span{
+address{
    color: hsl(75, 94%, 57%);
 }
 
@@ -44,17 +39,16 @@ p{
     opacity: 0.7;
 }
 
-.div-2{
+.list{
    
     width: 320px;
     padding: 10px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-
-    
+    gap: 8px; 
 }
+
 .links{
    padding: 10px ;
    display: block;
@@ -66,10 +60,9 @@ p{
     text-decoration: none;
       width: 300px;
       cursor: pointer;
-
 }
+
 .links:hover{
     background-color: hsl(75, 94%, 57%);
-    color: black;
-    
+    color: black;    
 }
