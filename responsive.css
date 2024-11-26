@@ -1,0 +1,16 @@
+/* Smartphones (600px para baixo) */ 
+@media only screen and (max-width: 600px) {
+
+.div-central{
+  
+    display: flex;
+    flex-wrap: wrap;
+    left: auto;
+    right: auto;
+}
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+} 
+
+}
