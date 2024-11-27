@@ -8,6 +8,7 @@
     margin-left: -120px;
     margin-right: 50px;
     position: center, ;    
+     
 }
 
 ul{
@@ -20,6 +21,7 @@ ul{
    display: flex;
    justify-content: center;
 }
+
 .links:hover{
     background-color: hsl(75, 94%, 57%);
     color: black;
